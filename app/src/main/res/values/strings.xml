@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">TestSuitMedia</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="copyright">Copyright © 2020 Suitmedia All rights reserved.</string>
+    <string name="welcome">Welcome</string>
+    <string name="info_apps">This is app for suitmedia mobile developer test</string>
+    <string name="type_name_here">type name here</string>
+    <string name="type_text_palindrome">Type text palindrome</string>
+    <string name="next">Next</string>
+    <string name="check">Check</string>
+    <string name="choose_event">Choose Event</string>
+    <string name="choose_guest">Choose Guest</string>
+    <string name="hallo">Hallo,</string>
+    <string name="title_event">event</string>
+    <string name="title_guest">guest</string>
+    <string name="search">search</string>
+    <string name="maps">maps</string>
+
+    <string name="apikey" templateMergeStrategy="preserve" translatable="false" tools:ignore="ExtraTranslation">AIzaSyApFLbtpY0Zy41Gqg-6MO0rN5JClr54Yic</string>
+</resources>

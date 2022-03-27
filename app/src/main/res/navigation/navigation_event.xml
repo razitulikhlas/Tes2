@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_event"
+    app:startDestination="@id/homeEventFragment">
+
+    <fragment
+        android:id="@+id/homeEventFragment"
+        android:name="com.proyekakhir.testsuitmedia.view.event.HomeEventFragment"
+        android:label="fragment_home_event"
+        tools:layout="@layout/fragment_home_event" >
+        <action
+            android:id="@+id/action_homeEventFragment_to_mapsFragment"
+            app:destination="@id/mapsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.proyekakhir.testsuitmedia.view.event.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" />
+</navigation>
