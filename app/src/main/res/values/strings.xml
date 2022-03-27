@@ -1,7 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">TestSuitMedia</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="copyright">Copyright © 2020 Suitmedia All rights reserved.</string>
     <string name="welcome">Welcome</string>
     <string name="info_apps">This is app for suitmedia mobile developer test</string>

@@ -8,6 +8,7 @@ import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.GridLayoutManager
 import com.proyekakhir.core.adapter.GuestAdapter
 import com.proyekakhir.core.adapter.GuestLoadStateAdapter
+import com.proyekakhir.testsuitmedia.R
 import com.proyekakhir.testsuitmedia.databinding.ActivityGuestBinding
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
@@ -25,7 +26,7 @@ class GuestActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         _binding = ActivityGuestBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        supportActionBar?.title = "Guest"
+        supportActionBar?.title = resources.getString(R.string.title_guest)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setHomeButtonEnabled(true)
         supportActionBar?.setHomeAsUpIndicator(com.proyekakhir.testsuitmedia.R.mipmap.ic_back_white)

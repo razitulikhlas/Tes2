@@ -11,7 +11,7 @@ class EventActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_event)
-        supportActionBar?.title = "Events"
+        supportActionBar?.title = resources.getString(R.string.title_event)
         supportActionBar?.setHomeAsUpIndicator(R.mipmap.ic_back_white)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setHomeButtonEnabled(true)
